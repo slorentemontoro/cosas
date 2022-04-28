@@ -1,0 +1,80 @@
+.mapa {
+  margin: auto;
+  border: 0;
+  align-content: center;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container #contact {
+  background: #f9f9f9;
+  padding: 25px;
+  margin: 50px 0;
+}
+
+.container #contact h3 {
+  display: inline;
+  font-size: 30px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+.container #contact p {
+  display: inline;
+  font-size: 20px;
+  color: #4c4c4c;
+}
+
+.container #contact fieldset {
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+.container #contact input,
+.container #contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+.container #contact input:hover,
+.container #contact textarea:hover {
+  border: 1px solid #aaa;
+}
+
+.container #contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+.container #contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: red;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.container #contact button[type="submit"]:hover {
+  background: #cc0000;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container #contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/*# sourceMappingURL=Contact.css.map */

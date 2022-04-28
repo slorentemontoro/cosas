@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+* .info {
+    background-color: whitesmoke;
+    padding: 1em;
+    display: inline-block;
+    width: 100%;
+}
+
+* .info .fa-phone {
+    padding-top: 7px;
+}
+
+* .info input {
+    float: right;
+}
+
+* .info .fa-magnifying-glass {
+    background-color: gray;
+    float: right;
+    padding: 0.45em;
+}
+
+* .menu img {
+    width: 15em;
+    margin: 1.5em;
+}
+
+* .menu .menu-list {
+    display: flex;
+    float: right;
+    margin: 2.5em 4em;
+}
+
+* .menu .menu-list li {
+    list-style-type: none;
+}
+
+* .menu .menu-list li a {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2d2d2d;
+}
+
+* .menu .menu-list li .selected {
+    color: red;
+}
+
+/*# sourceMappingURL=header.css.map */

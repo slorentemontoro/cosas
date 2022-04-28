@@ -1,0 +1,12 @@
+.carousel {
+    width: 50em;
+    margin: 5em auto;
+}
+
+.carousel a .fa-angle-left,
+.carousel a .fa-angle-right {
+    color: white;
+    font-size: 2em;
+}
+
+/*# sourceMappingURL=carousel.css.map */

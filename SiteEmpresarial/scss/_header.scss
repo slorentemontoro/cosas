@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+
+
+    .info{
+        background-color: rgb(245, 245, 245);
+        padding: 1em;
+        display: inline-block;
+        width: 100%;
+
+        .fa-phone{
+            padding-top: 7px;
+        }
+
+        input{
+            float: right;
+        }
+
+        .fa-magnifying-glass{
+            background-color: gray;
+            float: right;
+            padding: 0.45em;
+        }
+    }
+
+
+    .menu{
+
+        img{
+            width: 15em;
+            margin: 1.5em;
+        }
+
+        .menu-list{
+            display: flex;
+            float: right;
+            margin: 2.5em 4em;
+
+
+            li{
+                list-style-type: none;
+
+                a{
+                    margin: 10px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: rgb(45, 45, 45);
+                    
+                }
+
+                .selected{
+                    color: rgb(255, 0, 0);
+                }
+            }
+        }
+    }
+}
