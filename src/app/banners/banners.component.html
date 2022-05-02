@@ -1,1 +1,9 @@
-<p>banners works!</p>
+<div  class="banner">
+    <div *ngFor="let banner of Banners" class="card bg-dark text-white">
+        <img src="{{banner.getImagen()}}">
+        <div class="card-img-overlay">
+          <h5 class="card-title">{{banner.getNombre()}}</h5>
+        </div>
+      </div>
+</div>
+  

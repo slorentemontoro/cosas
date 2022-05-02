@@ -1,0 +1,30 @@
+.banner{
+    display: flex;
+  justify-content: center;
+  margin-top: 30em;
+
+    .card{
+        width: 20%;
+        height: 40%;
+        margin: 2em 1em;
+
+        .card-img-overlay{
+            background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.201), 
+          rgba(0, 0, 0, 0.201)
+        );
+
+        .card-title{
+
+            margin-top: 6em;
+        }
+        }
+    }
+}
+
+
+
+
+

@@ -1,0 +1,18 @@
+.categorias{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .card{
+        margin: 5em 1em;
+
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+}

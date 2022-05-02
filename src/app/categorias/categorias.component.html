@@ -1,1 +1,10 @@
-<p>categorias works!</p>
+<div class="categorias">
+  <div *ngFor="let categoria of Categorias" class="card" style="width: 18rem">
+    <a [routerLink]="['shop']">
+      <img src="{{categoria.getImagen()}}" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <p class="card-text">{{categoria.getNombre()}}</p>
+      </div>
+    </a>
+  </div>
+</div>

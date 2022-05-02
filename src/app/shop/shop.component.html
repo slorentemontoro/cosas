@@ -1,0 +1,15 @@
+
+<div class="product-list">
+    <div *ngFor="let ropa of Shops" class="product-card" (click)="navegarAlArticulo(ropa)">
+        <div class="product-image-container">
+            <img src="{{ropa.getImagen()}}"/>
+            <i [ngClass]="ropa.getFavorito() == true ? 'esFavorito' : 'noEsFavorito'" class="fa-solid fa-inverse fa-heart"></i>
+        </div>
+        <div class="product-info-container">
+            <div>
+                <div class="product-title">{{ropa.getNombre()}}</div>
+                <div class="product-shop">{{ropa.getPrecio() | currency:"EUR" }}</div>
+            </div>
+        </div>
+    </div>
+</div>

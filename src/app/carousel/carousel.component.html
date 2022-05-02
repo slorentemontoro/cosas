@@ -1,1 +1,11 @@
-<p>carousel works!</p>
+<div class="carousel">
+  <div class="slider">
+    <div *ngFor="let images of Carousel" class="img">
+      <img [src]="images.getImagen()" alt="Random first slide">
+    </div>
+    <div class="carousel-caption">
+      <h3>Summer Style</h3>
+      <p>50% DTO</p>
+    </div>
+</div>
+</div>
