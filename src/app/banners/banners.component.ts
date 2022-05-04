@@ -24,7 +24,7 @@ export class BannersComponent implements OnInit {
       (data) => {
         data.forEach( (banner) =>{
           const bannerAIncluir: Banner = new Banner(banner.id, banner.nombre, banner.imagen);
-
+          console.log(bannerAIncluir)
           this.Banners.push(bannerAIncluir);
         })
       }
